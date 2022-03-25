@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>お問い合わせ</title>
+    </head>
+    <body onload="start()">
+          <a href="index.html"><img class="img2" src="img/matu6.jpeg" width="240px"></a>
+        <h1>お問い合わせページ</h1>
+        <div class="top">
+        <div><a href="index.html">トップページ</a></div>
+        <div><a href="index6.2.html">サイトマップ</a></div>
+        <div><a href="index6.1.html">当社について</a></div>
+        </div>
+        <p>お問合せしたい内容をしたの欄に入力してください</p>
+        <textarea id="text"class="text" cols="40" rows="20" wrap="hrad"></textarea>
+        <div onclick="next()"class="button">送信する</div>
+        <p>このサイトの修正などに使いたいです！</br>
+      　メールなのでお金かかっちゃうかも</br>
+      　修正願いのメールと変更したとこをこの下の方に追加するよ
+        </p>
+        <style>
+            .div{
+                width:200px;
+                height:200px;
+            }
+            body{
+                font-family:monospace;
+            }
+            body h1{
+                border-bottom:1px solid;
+            }
+.top{
+margin-left:70%;
+}
+
+.top div{
+    color:black;
+    display:inline-block;
+    padding-left:5px;
+}
+.top a{
+    text-decoration:none;
+    color:black;
+}
+.top div:hover{
+    font-weight:600;
+}
+.text{
+    font-size:15px;
+}
+.button{
+    font-size:15px;
+    text-align:center;
+    padding-top:6px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    width:100px;
+    height:30px;
+    border:1px solid;
+    color:black;
+}
+.button:hover{
+    color:white;
+   background-color:black;
+}
+
+        </style>
+        <script>
+            function next(){
+              location.href = 'mailto:' + 'kazukazu.18@icloud.com' + '?subject=' + 'お問い合わせ' + '&body=' + document.getElementById('text').value;
+                location.href="index4.1.html"
+            }
+            function start(){
+
+              let y =  document.querySelector('h1').getBoundingClientRect().top;
+              let x = parseInt(y);
+              let x1 = x + 'px';
+                document.querySelector('.top').style.position = "absolute";
+                document.querySelector('.top').style.top = x1 ;
+            }
+        </script>
+    </body>
+</html>

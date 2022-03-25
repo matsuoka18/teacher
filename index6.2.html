@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>サイトマップ</title>
+    </head>
+    <body onload="start()">
+          <a href="index.html"><img class="img2" src="img/matu6.jpeg" width="240px"></a>
+        <h1>サイトマップ</h1>
+        <div class="top">
+        <div><a href="index.html">トップページ</a></div>
+        <div><a href="index6.1.html">当社について</a></div>
+        <div><a href="index6.html">お問い合わせ</a></div>
+        </div>
+        <section>
+        <div class="border"></div>
+        <a class="color"href="index.html"><p class="big">トップページ</p></a>
+        </section>
+        <section>
+             <div class="border2"></div>
+        <a class="color"><p class="big">サービス一覧</p>
+        <a class="color"href="index3.html"><p class="small">・商品一覧</p>
+        <a class="color"href="index2.html"><p class="small">・健康クイズ</p>
+        </section>
+        <section>
+             <div class="border3"></div>
+        <a href="index6.1.html" class="color"><p class="big">当社について</p>
+        </section>
+        <section>
+             <div class="border4"></div>
+        <a href="index6.html" class="color"><p class="big">お問い合わせ</p>
+        </section>
+        <style>
+            body{
+                font-family:monospace;
+            }
+            body h1{
+                border-bottom:1px solid;
+            }
+            .top{
+    position:absolute;left:75%;top:10%;
+}
+
+.top div{
+    color:black;
+    display:inline-block;
+    padding-left:5px;
+}
+.top a{
+    text-decoration:none;
+    color:black;
+}
+.top div:hover{
+    font-weight:600;
+}
+.big{
+    width:195px;
+    font-size:30px;
+    padding-bottom:0px;
+    padding-left:20px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-bottom:1px solid;
+}
+.big:hover{
+    background-color:whitesmoke;
+}
+.small{
+    font-size:25px;
+    padding-left:20px;
+}
+.color{
+    color:black;
+    text-decoration:none;
+}
+.small:hover{
+    background-color:whitesmoke;
+}
+        </style>
+    <script>
+      function start(){
+
+        let y =  document.querySelector('h1').getBoundingClientRect().top;
+        let x = parseInt(y);
+        let x1 = x + 'px';
+          document.querySelector('.top').style.position = "absolute";
+          document.querySelector('.top').style.top = x1 ;
+      }
+    </script>
+    </body>
+</html>

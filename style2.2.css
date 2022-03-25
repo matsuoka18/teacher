@@ -1,0 +1,223 @@
+/*iPhone X + XS + 11 Pro + 12 mini + 13 mini*/
+body {
+  width:100%;
+  height:100%;
+    font-family:monospace;
+    padding-left:0;
+}
+.div2{
+    padding-top:20px;
+    width:100vw;
+    display:flex;
+    border-bottom:1px solid;
+}
+.ex{
+    float:left;
+}
+.imgg{
+  width:50%;height:50%;
+  padding:0;
+  margin:0;
+}
+  .top{
+padding-left:5%;
+  }
+
+.top div{
+    color:black;
+    display:inline-block;
+    padding-left:2px;
+    font-size: 10px;
+    font-weight:600;
+}
+.top a{
+  display:inline-block;
+    text-decoration:none;
+    color:black;
+}
+.top div:hover{
+    font-weight:600;
+}
+
+.h1{
+ padding-left:20px;
+ padding-bottom:0px;
+}
+.buy{
+ display:flex;
+}
+.buy1{
+    text-align:center;
+    height:30px;
+    width:100px;
+    position:absolute;left:180px;
+    margin-top:10px;
+    color:white;
+    font-size:20px;
+    font-weight:600;
+    border:1px solid white;
+    background-color:#FFCC66;
+}
+.buy1:hover{
+    color:black;
+    border-color:black;
+}
+
+.div1{
+    padding:5px;
+    margin:0px;
+    background-color:#FFCC66;
+    height:235px;
+    width:100vw;
+}
+.div3{
+    padding:5px;
+    background-color:#E0FFFF;
+    height:235px;
+    width:100vw;
+}
+.div3 h3{
+font-size:15px;
+}
+.div4{
+    padding:5px;
+    background-color:#F0FFF0;
+    height:235px;
+        width:100vw;
+}
+.div5{
+    padding:5px;
+    background-color:#FFCC66;
+    height:235px;
+      width:100vw;
+}
+.div6{
+  height:235px;
+    padding:5px;
+    background-color:#E0FFFF;
+      width:100vw;
+}
+.div7{
+  height:235px;
+    padding:5px;
+    background-color:#F0FFF0;
+      width:100vw;
+}.div8{
+  height:235px;
+    padding:5px;
+    background-color:#FFCC66;
+      width:100vw;
+}
+.div9{
+  height:235px;
+    padding:5px;
+    background-color:#E0FFFF;
+      width:100vw;
+}
+.div10{
+  height:235px;
+    padding:5px;
+    background-color:#F0FFF0;
+      width:100vw;
+}
+.p1{
+    margin:10px;
+    padding-left:5px;
+    font-size:15px;
+    border-left:6px solid;
+}
+.all{
+    width:100vw;
+}
+.width1{
+  width:120px;
+}
+.com pre{
+  margin:0px;
+  padding:0px;
+}
+.pp1{
+  border-top: 1px solid black;
+   padding-top:10px;
+   padding-bottom:0px;
+   padding-left:2px;
+   width:100vw;
+   font-size:14px;
+     display: block;
+     height:60px;
+ }
+
+.pp2{
+  border-top: 1px solid black;
+   padding-top:10px;
+   padding-bottom:0px;
+   padding-left:2px;
+    width:100vw;
+   font-size:13px;
+     display: block;
+      height:60px;
+}
+.pp3{
+  border-top: 1px solid black;
+   padding-top:10px;
+   padding-bottom:0px;
+   padding-left:2px;
+   width:100vw;
+   font-size:14px;
+     display: block;
+}
+.pp4{
+  border-top: 1px solid black;
+   padding-top:10px;
+   padding-bottom:0px;
+   padding-left:2px;
+   width:100vw;
+   font-size:12px;
+     display: block;
+}
+.pp5{
+  border-top: 1px solid black;
+   padding-top:10px;
+   padding-bottom:0px;
+   padding-left:2px;
+   width:100vw;
+   font-size:12px;
+     display: block;
+}
+.pp6{
+  border-top: 1px solid black;
+   padding-top:10px;
+   padding-bottom:0px;
+   padding-left:2px;
+   width:100vw;
+   font-size:11px;
+     display: block;
+}
+.pp7{
+  border-top: 1px solid black;
+   padding-top:10px;
+   padding-bottom:0px;
+   padding-left:2px;
+   width:100vw;
+   font-size:12px;
+     display: block;
+}
+
+.pp9{
+  border-top: 1px solid black;
+   padding-top:10px;
+   padding-bottom:0px;
+   padding-left:2px;
+   width:100vw;
+   font-size:13px;
+     display: block;
+}
+.pp10{
+  border-top: 1px solid black;
+   padding-top:10px;
+   padding-bottom:0px;
+   padding-left:2px;
+   width:100vw;
+   font-size:11px;
+     display: block;
+}
